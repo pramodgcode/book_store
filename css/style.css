@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body.bg1 {
+  background-image: url(../img/bg1.jpg);
+  background-position: fixed;
+  background-size: cover;
+}
+form {
+  width: 24%;
+}
+.login {
+  /* border: 3px solid rgb(115, 44, 159) ; */
+  /* background-color: rgb(243, 210, 245); */
+  /* width: 50%; */
+  /* margin-right: 50px; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.login form {
+  align-self: center;
+}
+.form-labellogin {
+  color: rgb(101, 41, 123);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* .form-control{
+    width: 80%;
+} */
+
+/* .lablelogin{
+   margin-left: 30px;
+   width: 100%;
+} */
+
+#loginbt {
+  text-align: center;
+}
+
+.login-button {
+  background-color: #4aadd8;
+}
+
+.login-button:hover {
+  border: 1px solid #4aadd8;
+}
+
+#loginbutton1:hover {
+  background-color: gold;
+  color: black;
+}
+
+.loginA {
+  margin-left: 30px;
+  padding: 0;
+}
+/* .login_ul_li{
+    
+    border: 1px solid red;
+    padding: 5px;
+    float:right;
+    margin-right: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login_ul_li h3{
+    text-align: center;
+    text-decoration-line:underline;
+   
+} */
+
+/* sign up page */
+body.bg2 {
+    background-image: url(../img/bg2.jpg);
+    background-position: fixed;
+    background-size: cover;
+  }
+.sign_up {
+  border: 3px solid rgb(201, 6, 219);
+  background-color: rgb(254, 254, 254);
+  width: 40%;
+  height: 35em;
+  margin-left: 50px;
+  margin-top: 80px;
+  /* margin-right: 50px; */
+}
+/* .form-labelsign_up{
+
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(128, 23, 117);
+} */
+
+.form-controlsign_up {
+  width: 80%;
+}
+
+.lablesign_up {
+  margin-left: 30px;
+  width: 100%;
+}
+
+#sign_upbt {
+  text-align: center;
+}
+
+#sign_upbutton1 {
+  background-color: greenyellow;
+  color: rgb(45, 3, 59);
+  width: 50%;
+  height: 2em;
+  margin-right: 2px;
+}
+
+#sign_upbutton1:hover {
+  background-color: gold;
+  color: black;
+}
+
+#sign_upbutton2 {
+  background-color: rgb(78, 4, 95);
+  color: aliceblue;
+  width: 50%;
+  height: 2em;
+  margin-right: 2px;
+}
+
+#sign_upbutton2:hover {
+  background-color: rgb(237, 90, 5);
+  color: rgb(0, 0, 0);
+}
+#ag_signup {
+  padding: 7%;
+  margin-left: 7px;
+}
