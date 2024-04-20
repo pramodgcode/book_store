@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 body.bg1 {
   background-image: url(../img/bg1.jpg);
   background-position: fixed;
@@ -135,4 +136,28 @@ body.bg2 {
 #ag_signup {
   padding: 7%;
   margin-left: 7px;
+}
+
+/* home page starts      */
+.home-image-border{
+    border-radius: 0 10px 10px 0;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-email-input{
+    width: 327px;
+}
+
+.text-gray {
+    color: #d3d3d3;
+}
+
+.book-image-card-height{
+  height: 365px;
+}
+
+/* book single  */
+.single-book-margin{
+  margin-top: 11%;
 }
