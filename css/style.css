@@ -24,9 +24,8 @@ form {
   align-self: center;
 }
 .form-labellogin {
-  color: rgb(101, 41, 123);
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* color: rgb(0, 0, 0); */
+  
 }
 
 /* .form-control{
@@ -79,60 +78,9 @@ body.bg2 {
     background-position: fixed;
     background-size: cover;
   }
-.sign_up {
-  border: 3px solid rgb(201, 6, 219);
-  background-color: rgb(254, 254, 254);
-  width: 40%;
-  height: 35em;
-  margin-left: 50px;
-  margin-top: 80px;
-  /* margin-right: 50px; */
-}
-/* .form-labelsign_up{
 
-    margin-top: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(128, 23, 117);
-} */
 
-.form-controlsign_up {
-  width: 80%;
-}
 
-.lablesign_up {
-  margin-left: 30px;
-  width: 100%;
-}
-
-#sign_upbt {
-  text-align: center;
-}
-
-#sign_upbutton1 {
-  background-color: greenyellow;
-  color: rgb(45, 3, 59);
-  width: 50%;
-  height: 2em;
-  margin-right: 2px;
-}
-
-#sign_upbutton1:hover {
-  background-color: gold;
-  color: black;
-}
-
-#sign_upbutton2 {
-  background-color: rgb(78, 4, 95);
-  color: aliceblue;
-  width: 50%;
-  height: 2em;
-  margin-right: 2px;
-}
-
-#sign_upbutton2:hover {
-  background-color: rgb(237, 90, 5);
-  color: rgb(0, 0, 0);
-}
 #ag_signup {
   padding: 7%;
   margin-left: 7px;
