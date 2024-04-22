@@ -20,13 +20,17 @@ form {
   display: flex;
   justify-content: center;
 }
+.login_page{
+  width:px;
+}
+
 .login form {
   align-self: center;
 }
-.form-labellogin {
-  /* color: rgb(0, 0, 0); */
+/* .form-labellogin {
+  color: rgb(0, 0, 0);
   
-}
+} */
 
 /* .form-control{
     width: 80%;
