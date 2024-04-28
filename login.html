@@ -23,15 +23,15 @@
       <div class="row">
         <div class="col-md-12">
           <div class="login">
-            <form class="p-4 card">
+            <form action="index.html" class="p-4 card" onsubmit="return login()">
               <h3 class="text-center mb-4">WELCOME</h3>
               <div class="form-group mb-2">
+                <p class="text-danger" id="errorMessage"></p>
                 <label for="exampleInputEmail1">Email</label>
                 <input
-                  type="email"
+                  type="text"
                   class="form-control"
-                  id="exampleInputEmail1"
-                 
+                  id="auth_email"
                   placeholder="Enter email"
                 />
               </div>
@@ -42,18 +42,27 @@
                 <input
                   type="password"
                   class="form-control"
-                  id="exampleInputEmail1"
+                  id="auth_password"
+                  oninput="passwordStrength()"
                   placeholder="Password"
                 />
+              </div>
+
+              <div class="form-group mb-2">
+                <ul class="ps-3">
+                  <li class="" id="min_chars">Minimum 8 characters</li>
+                  <li class="" id="one_upper_case">At least one uppercase</li>
+                  <li id="one_lower_case">One lower case</li>
+                  <li id="one_number_check">Contain at least one number</li>
+                </ul>
               </div>
 
               <a href="#" class="link">Forgot password?</a>
 
               <div class="mt-4">
-                <a class="btn w-100 login-button" href="/index.html">Login</a>
-
+                <button class="btn w-100 login-button" type="submit">Login</button>
                 <a
-                  href="/sign_up.html"
+                  href="sign_up.html"
                   class="w-100 btn btn-primary-outline"
                   >Signup</a
                 >
@@ -63,5 +72,6 @@
         </div>
       </div>
     </div>
+    <script src="js/validation.js"></script>
   </body>
 </html>
